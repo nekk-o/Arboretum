@@ -1,0 +1,132 @@
+/* Général */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Header du site */
+header {
+    height: 500px;
+    width: 100%;
+    background-color: #3DD0AC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    background-image: url(../images/tree.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+/* Barre de navigation  */
+
+nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav li {
+    display: inline;
+    padding: 0px 30px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: white;
+}
+
+nav li a.active {
+    color: #3DD0AC;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.titre {
+    margin-top: 350px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 40px;
+}
+
+/* Corps du site */
+
+section {
+    padding: 10px;
+    width: 760px;
+    margin: auto;
+}
+
+section h1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: grey;
+    text-align: center;
+}
+
+section p {
+    padding: 10px 0px;
+}
+
+
+section img {
+    display: block;
+    margin: auto;
+}
+
+section iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    margin: 10px;
+}
+
+/* pied de page */
+
+footer {
+    padding: 10px;
+    height: 20px;
+    background-color: #3DD0AC;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+
+footer ul {
+    text-align: center;
+    margin: 0;
+}
+footer li {
+    display: inline;
+    color: white;
+}
